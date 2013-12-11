@@ -11,6 +11,9 @@
 #footer { border-top: none !important; }
 .footer_widgets_cont { display: none; }
 
+.team-member { position: relative; }
+.team-member figure { float: left; padding-right: 10px; padding-bottom: 10px; }
+
 /*
 
 
