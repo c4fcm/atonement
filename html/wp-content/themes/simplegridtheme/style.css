@@ -3,6 +3,8 @@
 #header { padding-bottom: 0 !important; }
 .featured_banner { display: none; }
 #menu_container { border-bottom: 1px dotted #dddddd !important; }
+#menu-category_menu { display: none; }
+.home h1 { display: none; }
 .blog_left { width: 1000px !important; }
 #load_posts_container { overflow: hidden; }
 #sidebar { display: none; }

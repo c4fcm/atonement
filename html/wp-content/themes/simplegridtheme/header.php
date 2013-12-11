@@ -21,7 +21,7 @@
   }
   </script>
 </head>
-<body>
+<body <?php body_class(); ?>>
 
 <?php $shortname = "simple_grid"; ?>
 
