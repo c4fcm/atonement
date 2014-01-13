@@ -64,7 +64,9 @@
 
     
 
-        <div class="footer_copyright">© 2012 Simple Grid Theme   All Rigts Reserved. Design and Developed by <a href="http://www.dessign.net">Dessign.net</a> Inspired by <a href="http://www.el-studio.co.uk/"> el-studio.co.uk</a></div>
+        <div class="footer_copyright">
+            <a href="http://civic.mit.edu"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/c4cm-badge.gif"/></a>
+        </div>
 
     </div><!--//footer-->
 

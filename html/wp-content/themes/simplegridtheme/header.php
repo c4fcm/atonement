@@ -35,26 +35,6 @@
         <?php } ?>                    
         
         <div class="right">
-        
-            <ul class="social_icons">
-              <?php if(get_option($shortname.'_twitter_link','') != "") { ?>
-                <li><a href="<?php echo get_option($shortname.'_twitter_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter-icon.png" /></a></li>
-              <?php } ?>
-              <?php if(get_option($shortname.'_facebook_link','') != "") { ?>
-                <li><a href="<?php echo get_option($shortname.'_facebook_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook-icon.png" /></a></li>
-              <?php } ?>
-              <?php if(get_option($shortname.'_google_plus_link','') != "") { ?>
-                <li><a href="<?php echo get_option($shortname.'_google_plus_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/gplus-icon.png" /></a></li>
-              <?php } ?>
-              <?php if(get_option($shortname.'_dribbble_link','') != "") { ?>
-                <li><a href="<?php echo get_option($shortname.'_dribbble_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/dribbble-icon.png" /></a></li>
-              <?php } ?>
-              <?php if(get_option($shortname.'_pinterest_link','') != "") { ?>
-                <li><a href="<?php echo get_option($shortname.'_pinterest_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pinterest-icon.png" /></a></li>
-              <?php } ?>
-            </ul>
-            <div class="clear"></div>
-            
             <div class="search_cont">
                 <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
                   <input type="text" name="s" id="s" />
@@ -66,6 +46,41 @@
         </div><!--//right-->
         
         <div class="clear"></div>
+
+            <ul class="social_icons">
+
+              <?php if(get_option($shortname.'_twitter_link','') != "") { ?>
+
+                <li><a href="<?php echo get_option($shortname.'_twitter_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter-icon.png" /></a></li>
+
+              <?php } ?>
+
+              <?php if(get_option($shortname.'_facebook_link','') != "") { ?>
+
+                <li><a href="<?php echo get_option($shortname.'_facebook_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook-icon.png" /></a></li>
+
+              <?php } ?>
+
+              <?php if(get_option($shortname.'_google_plus_link','') != "") { ?>
+
+                <li><a href="<?php echo get_option($shortname.'_google_plus_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/gplus-icon.png" /></a></li>
+
+              <?php } ?>
+
+              <?php if(get_option($shortname.'_dribbble_link','') != "") { ?>
+
+                <li><a href="<?php echo get_option($shortname.'_dribbble_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/dribbble-icon.png" /></a></li>
+
+              <?php } ?>
+
+              <?php if(get_option($shortname.'_pinterest_link','') != "") { ?>
+
+                <li><a href="<?php echo get_option($shortname.'_pinterest_link',''); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pinterest-icon.png" /></a></li>
+
+              <?php } ?>
+
+            </ul>
+
     </div><!--//header-->
     
     <div id="menu_container">
